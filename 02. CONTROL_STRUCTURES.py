@@ -74,7 +74,7 @@ use the for loop to iterate through values, the range method can be used
 '''
 
 # default starting value is 0
-# (stops_at_this_number)
+# (end_before_this_number)
 for x in range(6) :
     print(f"The current value of x is {x}")
 
@@ -114,3 +114,40 @@ while k<6 :
         continue
     
     print(k)
+
+"""==========================================================="""
+# Nested FOR Loop
+
+for x in range(5):
+    print("A")
+# will print 5 pero if number ang iprint mismo it will print 4 - 0,1,2,3,4
+
+# example ng number ang print
+for x in range(7):
+    print(x)
+
+for x in range(5):
+    for y in range(5):
+        print("*")
+# meaning 5 times gagawin ung loop ng y therefore 25 times maeexecute
+
+#To execute the loop in one line add end=""
+#Kasi pagnagexecute ng loop laging new line after ng 1 execution
+for x in range(5):
+    for y in range(5):
+        print("*", end="")
+
+#printing the x
+for x in range(6):
+    for y in range(5):
+        print("*", end="")
+    print()
+# Ung may print na may end is for y 
+# Tas ung print na walang laman ay for x
+# So ibig sabihin 5 na magkakadikit tas 6 na columns
+
+"""
+iprint niya muna ung y which is may 5 asterisk
+then execute ung print() which is new line lang
+then balik sa y hanggang matapos kung ano ung nakaindicate na range
+"""

@@ -22,5 +22,6 @@ https://github.com/deniesemillanes/Learning/tree/master/Python
 -- Repetition Control Structures
 -- range() method
 -- Breaks and Continue
+-- Nested For Loop
 """
 
