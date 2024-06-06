@@ -25,7 +25,7 @@ https://github.com/deniesemillanes/Learning/tree/master/Python
 -- Nested For Loop
 """
 
-#3_a LISTS, DICTIONARY, FUNCTION, CLASS
+#3.a LISTS (DICTIONARIES, FUNCTION, CLASS)
 """
 -- Data Types
 -- Lists
@@ -49,4 +49,30 @@ https://github.com/deniesemillanes/Learning/tree/master/Python
 -- Functions
 -- Lambda Functions
 -- Classes
+"""
+
+#3.b DICTIONARY
+"""
+-- len() method
+-- dict_name.keys()
+-- dict_name.values()
+-- dict_name.items()
+-- update method
+-- pop method
+-- del keyword
+-- clear() method
+-- looping through dictionary
+    -- print keys one by one
+    -- print values one by one 
+-- nested dictionary   
+"""
+
+#3.c FUNCTIONS
+"""
+
+"""
+
+#3.d CLASS
+"""
+
 """
